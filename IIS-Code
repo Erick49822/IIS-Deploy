@@ -1,0 +1,2 @@
+
+"C:\Program Files (x86)\IIS\Microsoft Web Deploy V3\msdeploy.exe" -verb:sync -source:IisApp='%WORKSPACE%\src\<ProjectFolder>\publish' -dest:iisapp='<Default Web Site>',computerName='<https://WINDOWS-SERVER:8172/msdeploy.axd>/msdeploy.axd?site=<Default Web Site>',authType='basic',username='<Administrator>',password='<Akamine@132>' -enableRule:AppOffline
